@@ -11,7 +11,7 @@
 const name = 'Vanessa';
 const birthyear = 1984;
 const inLearningJs = true;
-const undefTest;
+const undefTest = undefined;
 
 //* Begin of tests
 const assert = require('assert')
