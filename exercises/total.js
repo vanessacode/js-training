@@ -5,7 +5,18 @@
  * and return the total
  *
  */
+function sum(totaladd, num) {
+    return totaladd + num;
+    }
+    
+    function total(arg1) {
+    return arg1.reduce(sum);
+    }
 
+/*ES6
+function total(arg1) {
+return arg1.reduce((total, num) => total + num);
+}*/
 
 //* Begin of tests
 const assert = require('assert')
