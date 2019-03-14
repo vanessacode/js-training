@@ -8,7 +8,10 @@
  */
 
 // Your code :
-
+const name = 'Vanessa';
+const birthyear = 1984;
+const inLearningJs = true;
+const undefTest;
 
 //* Begin of tests
 const assert = require('assert')
