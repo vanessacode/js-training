@@ -8,9 +8,9 @@
  */
 
 // Your code :
-const str = 'Vanessa';
-const num = 1984;
-const bool = true;
+const str = '1337';
+const num = 42;
+const bool = false;
 const undef = undefined;
 
 //* Begin of tests
