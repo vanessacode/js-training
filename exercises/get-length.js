@@ -8,6 +8,15 @@
  */
 
 // Your code :
+function getLength (object) {
+    return object.length;
+}
+getLength([2,42]);
+getLength(['pouet', 4, true]);
+getLength([Array(100)]);
+getLength([getLength]);
+getLength(['salut']);
+getLength([]);
 
 //* Begin of tests
 const assert = require('assert')

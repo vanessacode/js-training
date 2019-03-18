@@ -19,7 +19,6 @@ function sign (num) {
     } else {
         return 0;
     }
-
 }
 
 //* Begin of tests

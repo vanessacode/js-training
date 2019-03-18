@@ -9,6 +9,16 @@
 
 // Your code :
 
+function getLast (object) {
+    let objectLength = object.length;
+    return object[objectLength -1];
+}
+getLast([2, 42]);
+getLast(['pouet', 4, true]);
+getLast([ getLast ]);
+getLast(['salut']);
+getLast([]);
+
 //* Begin of tests
 const assert = require('assert')
 

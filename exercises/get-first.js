@@ -9,6 +9,15 @@
 
 // Your code :
 
+function getFirst (object) {
+    return object[0];
+}
+getFirst([2, 42]);
+getFirst(['pouet', 4, true]);
+getFirst([ getFirst ]);
+getFirst(['salut']);
+getFirst([]);
+
 //* Begin of tests
 const assert = require('assert')
 
